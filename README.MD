@@ -1,4 +1,4 @@
-# Instaling
+# Setup
 ### Run the following command:
 
 ```shell
