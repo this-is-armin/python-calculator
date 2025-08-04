@@ -41,8 +41,8 @@ class Calculator(tk.Tk):
         
         self.create_button('+', button_frame, 0, 3, lambda: self.add_operator('+'), bg='azure4', fg='white')
         self.create_button('-', button_frame, 1, 3, lambda: self.add_operator('-'), bg='azure4', fg='white')
-        self.create_button('*', button_frame, 2, 3, lambda: self.add_operator('*'), bg='azure4', fg='white')
-        self.create_button('/', button_frame, 3, 3, lambda: self.add_operator('/'), bg='azure4', fg='white')
+        self.create_button('×', button_frame, 2, 3, lambda: self.add_operator('*'), bg='azure4', fg='white')
+        self.create_button('÷', button_frame, 3, 3, lambda: self.add_operator('/'), bg='azure4', fg='white')
         self.create_button('.', button_frame, 4, 0, lambda: self.add_number('.'), bg='azure4', fg='white', columnspan=5)
 
         self.create_button('C', button_frame, 3, 0, lambda: self.clear(), bg='darkred', fg='white')
