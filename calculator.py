@@ -15,7 +15,6 @@ class Calculator(tk.Tk):
 
         self.title('Calculator')
         self.config(bg='azure3')
-        self.geometry('500x565')
         self.resizable(0, 0)
 
         self.grid_columnconfigure(0, weight=1)
